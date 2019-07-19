@@ -1,0 +1,61 @@
+body{
+
+
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.card{
+
+
+    background:#232526;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container{
+
+    margin:0 auto;
+    padding-left: 15px;
+
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.container  div input{
+
+    height: 70px;
+               
+}
+
+    
+    label {
+        display:block;
+        margin-top:20px;
+        letter-spacing:1px;
+    }
+     
+  
+     
+     
+    input, textarea {
+        width:380px;
+        height:37px;
+        background:#DE6E6E;
+
+        border-radius: 35px;
+        margin-top:20px;
+        color: white;
+    }
+    
+    #submit {
+        width:85px;
+        height:37px;
+        border:none;
+        margin-top:45px;
+        cursor:pointer;
+    }
