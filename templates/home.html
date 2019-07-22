@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/stylus.css">
-    <title>App</title>
-</head>
-<body>
-        <div class="card">
-                <h5 class="card-header">Starholding App</h5>
-              </div>
+
+
+{%  extends 'layaout.html' %}
+
+              {% block content %}
               
               <div class="container">
-                <div class="btn-group-vertical">
-                        <input type="submit" value="Pago Pendientes" id="" class="btn btn-danger">
-                        <input type="submit" value="Nota de Credito Pendientes" class="btn btn-danger">
-                        <input type="submit"value="Clientes Nuevos"class="btn btn-danger">
+
+                        <div class="btn-group-vertical">
+                                <a href="/pago"  class="btn btn-danger">Pagos pendientes</a>
+                                <a href="/nc" class="btn btn-danger">Nota Creditos Pendientes </a>
+                                <a href="/clientes" class="btn btn-danger">Clientes Nuevos</a>
+                             
+                        </div>
                       </div>
+                      
+        
 
-              </div>
-              
+              {% endblock %}
 
-
-</body>
-</html>

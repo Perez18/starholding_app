@@ -1,0 +1,34 @@
+{% extends 'layaout.html' %}
+
+{% block content %}
+
+
+<a href="/" class="btn btn-dark">Salir</a>
+  <div class="container m-auto">
+      <table>
+
+        <tr>
+          <td>cliente</td>
+          <td>apellido</td>
+          <td>correo</td>
+        </tr>
+
+        <tr>
+
+
+            {% for usuario in usuarios  %}
+            <td>{{ usuario.1 }}</td>
+            <td>{{ usuario.2 }}</td>
+
+            {% endfor %}
+        </tr>
+
+
+
+      </table>
+
+  
+
+  </div>
+
+{%  endblock %}

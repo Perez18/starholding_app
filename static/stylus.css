@@ -17,20 +17,22 @@ background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, F
 }
 
 .container{
-
+ 
     margin:0 auto;
     padding-left: 15px;
-
     border-radius: 10px;
     color: white;
     text-align: center;
+    
 }
 
-.container  div input{
+.container .btn-group-vertical{
 
-    height: 70px;
-               
+width: 360px;
+height: 150px;
+
 }
+
 
     
     label {
