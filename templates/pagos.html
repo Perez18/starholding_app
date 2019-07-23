@@ -2,27 +2,28 @@
 
 {% block content %}
 
+<a href="/" class="btn btn-dark"><i class="fas fa-arrow-alt-circle-left"></i></a>
 
-<a href="/" class="btn btn-dark">Salir</a>
+
+
+
   <div class="container m-auto">
-      <table>
+      <table class="table bg-white">
 
         <tr>
           <td>cliente</td>
           <td>apellido</td>
           <td>correo</td>
         </tr>
-
+        {% for usuario in usuarios  %}
         <tr>
-
-
-            {% for usuario in usuarios  %}
+           
             <td>{{ usuario.1 }}</td>
             <td>{{ usuario.2 }}</td>
 
-            {% endfor %}
+        
         </tr>
-
+        {% endfor %}
 
 
       </table>
